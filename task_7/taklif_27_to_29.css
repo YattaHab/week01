@@ -1,0 +1,45 @@
+.parent {
+    background-color: #eee;
+    width: 800px;
+    width: 1000px;
+}
+.clear {
+    clear: both;
+}
+.margin{
+    background-color: #d0ccc4;
+    padding: 10px 0;
+    margin: 15px 0 0 15px;
+    text-align: center;
+    float: left;
+}
+.number-zero {
+    width: calc((100% - 30px)/1);
+}
+.number-one {
+    width: calc((100% - 60px)/3);
+}
+.number-two {
+    width: calc((100% - 45px)/2);
+}
+.number-three {
+    width: calc((100% - 75px)/4);
+    margin-bottom: 15px;
+}
+
+.normal , .one , .two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #B3B3B3; /* Get The Background From Image */
+    color: black;
+  }
+
+.one {
+    background-color: rgba(179, 179, 179, 0.1);
+}
+.two {
+    opacity: 0.1;
+}
